@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 
 const Frase = () => {
     return (
-        <Container className='w-75 bg-white rounded my-5 py-4 d-flex justify-content-evenly'>
+        <Container className='bg-white rounded my-5 py-4 d-flex justify-content-evenly'>
             <article >
             <img src={require("./../img/homero.png")} alt=""  className='w-100'/>
             </article>
