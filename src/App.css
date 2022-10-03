@@ -1,8 +1,11 @@
-body {
+#root {
   background: rgb(139,194,234);
-background: linear-gradient(137deg, rgba(139,194,234,1) 35%, rgba(148,153,225,1) 100%);
+  background: linear-gradient(137deg, rgba(139,194,234,1) 35%, rgba(148,153,225,1) 100%);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.container {
+Container {
   text-align: center;
 }
